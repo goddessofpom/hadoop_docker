@@ -13,6 +13,7 @@ services:
       - ./hadoop.env
     ports:
       - "50070:50070"
+      - "8020:8020"
 
   resourcemanager:
     image: hadoop-resourcemanager
